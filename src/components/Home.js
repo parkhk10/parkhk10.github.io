@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {Link} from 'react-router-dom';
 
 import SugarsThumb from './SugarsThumb';
 
@@ -27,7 +28,7 @@ const Home = () => {
                         <SugarsThumb />
                         <div className="project-display-caption">
                             <div>
-                                <h4 className="project-title">How do we digest sugars?</h4>
+                                <h4 className="project-title"><a href="/sugars"><Link to="/sugars">How do we digest sugars?</Link></a></h4>
                                 <span>information visualization</span>
                             </div>
                         </div>

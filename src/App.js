@@ -4,7 +4,8 @@ import './App.css';
 
 import Home from './components/Home';
 import About from './components/About';
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar';
+import SugarsPDP from './components/SugarsPDP';
 
 function App() {
   console.log("changing the switch")
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/play" render={About}>
             <About />
+          </Route>
+          <Route path="/sugars" render={SugarsPDP}>
+            <SugarsPDP />
           </Route>
           <Route path="/">
             <Home />

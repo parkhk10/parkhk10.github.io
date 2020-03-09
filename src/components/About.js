@@ -14,7 +14,7 @@ const About = () => {
                         <h4>A bit about me...</h4>
                         <p>
                             My name is Keren, and I’m a front-end developer, curious dabbler, 
-                            and an aspiring fit person (fit emoji). I’m passionate about 
+                            and an aspiring fit person. &#x1F3C3; I’m passionate about 
                             leveraging technology as a tool to create meaningful experiences 
                             that empower others. 
                         </p>
