@@ -70,18 +70,8 @@ end of default CSS */
   float: right;
   margin-right: 10%;
   margin-top: 40px;
-}
-
-#about-menu {
-  float: left;
-}
-
-#work-menu {
-  margin-left: 22%;
-}
-
-#play-menu {
-  float: right;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Logo */
@@ -99,9 +89,12 @@ end of default CSS */
 #intro-icons {
   float: left;
   width: 10%;
-  color: #999;
   display: flex;
   justify-content: space-between;
+}
+
+#intro-icons a {
+  color: #999;
 }
 
 #home-projects {
