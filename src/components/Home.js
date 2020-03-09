@@ -11,7 +11,7 @@ const Home = () => {
         <div className="">
             <main class="home-main">
                 <section id="intro-blurb">
-                    <h1>Hi, I'm Keren.</h1>
+                    <h1>Hi, I'm KEREN.</h1>
                     <p>I’m a front-end developer and a design enthusiast.</p>
                     <p>Driven by passion for creating thoughtful experiences 
                         that empower others.</p>
