@@ -159,14 +159,19 @@ end of default CSS */
 }
 
 /* SugarsPDP */
+.drop-shadow {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, .15);
+}
+
 #sugars-pdp {
   text-align: left;
   margin-left: 22%;
   margin-right: 22%;
 }
 
-.pdp-intro-wrapper {
+.pdp-wrapper {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .pdp-child-left {
@@ -189,9 +194,52 @@ end of default CSS */
 }
 
 .pdp-child-content-left {
-  width: 27%;
+  width: 25%;
 }
 
 .pdp-child-content-right {
-  width: 73%;
+  width: 75%;
+}
+
+.pdp-child-content-right .list-img img {
+  margin-top: 0;
+}
+
+.pdp-child-content-right img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-img {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.list-img {
+  margin-bottom: 20px;
+}
+
+.gif {
+  width: 50%!important;
+}
+
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .8);
+  background: rgb(145, 92, 182);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(145, 92, 182, .4);
+}
+
+.sugars-btn-size {
+  margin: 100px 35px 100px 35px;
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
 }
