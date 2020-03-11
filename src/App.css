@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  line-height: 1.6;
 }
 
 .App {
@@ -100,6 +101,10 @@ end of default CSS */
 /* Home */
 #intro-blurb {
   text-align: left;
+}
+
+#name {
+  font-size: xx-large;
 }
 
 .home-thumbnails {

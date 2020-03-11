@@ -14,21 +14,24 @@ const SugarsPDP = () => {
                 </p>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-left">
-                        <p>Timeline:</p>
-                        2 weeks
-                        <p>Team:</p>
-                        <ul>
-                            <li>Anna Deng</li>
-                            <li>Meera Ramakrishnan</li>
-                        </ul>
-                        <p>Tools:</p>
-                        <ul>
-                            <li>Figma</li>
-                            <li>CSS Animations</li>
-                            <li>React</li>
-                        </ul>
-                        <p>Outcome:</p>
-                        <a href="http://annadeng.com/396-assignment4/" target="_blank">this website</a>
+                        <br />
+                    Timeline: <br />
+                        1 week
+                        <br />
+                        <br />
+                        Partner:<br />
+                        Anna Deng<br />
+                        Meera Ramakrishnan
+                        <br />
+                        <br />
+                        Tools:<br />
+                        D3
+                        JavaScript
+                        HTML/CSS
+                        <br />
+                        <br />
+                        Outcome: <br />
+                        <a href="http://annadeng.com/396-assignment4/" target="_blank">Sugars Explorable Explanation</a>
                     </div>
                     <div className="pdp-child-right">
                         <img src="./images/sugars.png" className="section-img"/>
