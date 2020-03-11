@@ -271,3 +271,18 @@ video {
   width: 80%;
   margin-top: 20px;
 }
+
+/* Play */
+.grid-vertical-spacing-bar {
+  margin-bottom: 30px;
+}
+
+.spacer {
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.wider-column-img {
+  width: 90%;
+  margin-top: 20px;
+}

@@ -142,7 +142,7 @@ const MajorsPDP = () => {
                                 <source src="./images/majors_demo.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
-                            <a className="button glow-button sugars-btn-size" href="http://annadeng.com/396-assignment4/" target="_blank">
+                            <a className="button glow-button sugars-btn-size" href="https://parkhk10.github.io/interactive-viz/" target="_blank">
                                 demo
                             </a>
                         </div>
