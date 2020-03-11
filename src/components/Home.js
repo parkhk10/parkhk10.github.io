@@ -33,7 +33,7 @@ const Home = () => {
                                 </Link>
                             </a>
                             <h5 className="project-title">
-                                <a href="/sugars"><Link to="/sugars">How our bodies digest sugar?</Link></a>
+                                <a href="/sugars"><Link to="/sugars">How do our bodies digest sugar?</Link></a>
                             </h5>
                             <span>information visualization</span>
                         </div>
