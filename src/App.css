@@ -61,6 +61,11 @@ end of default CSS */
   display: flex;
 }
 
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* NavBar */
 .nav-bar {
   overflow: hidden;
@@ -201,6 +206,7 @@ end of default CSS */
 
 .pdp-child-content-left {
   width: 25%;
+  padding-right: 30px;
 }
 
 .pdp-child-content-right {
@@ -258,5 +264,10 @@ end of default CSS */
 .column-img {
   /* allows for columnation by setting width < 100% */ 
   width: 80%!important;
+  margin-top: 20px;
+}
+
+video {
+  width: 80%;
   margin-top: 20px;
 }

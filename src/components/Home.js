@@ -50,7 +50,9 @@ const Home = () => {
                         <img src="./images/majors.png"/>
                             <div className="project-display-caption">
                                 <div>
-                                    <h4 className="project-title">How should I select my college major?</h4>
+                                    <h4 className="project-title">
+                                        <a href="/majors"><Link to="/majors">How should I select my college major?</Link></a>
+                                    </h4>
                                     <span>information visualization</span>
                                 </div>
                             </div>

@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const SugarsPDP = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return(
         <div>
             <main className="pdp">

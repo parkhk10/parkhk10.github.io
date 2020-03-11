@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react'; 
 
 const AirbnbPDP = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
         <div>
             <main className="pdp" id="airbnb-pdp">
@@ -71,7 +75,8 @@ const AirbnbPDP = () => {
                     </div>
                     <div className="pdp-child-content-right">
                         Though we all worked heavily across multiple functions, my primary contributions include 
-                        <b> designing visuals</b> for presentations and <b>organizing</b> team meetings to get conversations rolling.
+                        <b> designing visuals</b> for presentations including the character drawings and the <b>video </b>
+                        and <b>organizing</b> team meetings to get conversations rolling.
                     </div>
                 </div>
                 <div className="pdp-wrapper">
@@ -153,7 +158,11 @@ const AirbnbPDP = () => {
                         <br />
                         <h5>SUPPORTING INTERFACES</h5>
                             As Airbnb is a web platform, changes to the service means changes to the app. 
+                        <br />
+                        <br />
+                        <br />
                         <h5>CONCEPT VIDEO</h5>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fgIZGA6DIRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div className="pdp-wrapper">
@@ -165,7 +174,6 @@ const AirbnbPDP = () => {
                     users’ interactions such as scroll, click, and hover. 
                     <br />
                     <div className="pdp-wrapper">
-                        <img src="./images/Sugars_Demo.gif" className="gif section-img"/>
                         <a className="button glow-button sugars-btn-size" href="http://annadeng.com/396-assignment4/" target="_blank">
                             full demo
                         </a>

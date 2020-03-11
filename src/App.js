@@ -7,6 +7,7 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 import SugarsPDP from './components/SugarsPDP';
 import AirbnbPDP from './components/AirbnbPDP';
+import MajorsPDP from './components/MajorsPDP';
 
 function App() {
   console.log("changing the switch")
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/airbnb" render={AirbnbPDP}>
             <AirbnbPDP />
+          </Route>
+          <Route path="/majors" render={MajorsPDP}>
+            <MajorsPDP />
           </Route>
           <Route path="/">
             <Home />
