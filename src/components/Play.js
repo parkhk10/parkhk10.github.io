@@ -52,8 +52,68 @@ const Play = () => {
                         </div>
                     </div>
                 </div>
+                <div className="spacer"></div>
+                <div className="">
+                    <h5>CHARACTERS, ABLUM COVERS, ETC</h5>
+                    <p>purely for fun, playing around on Figma</p>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">
+                            <img src="./images/play_cat.png" className="column-img"/>
+                        </div>
+                        <div className="tile">       
+                            <img src="./images/play_family.png" className="column-img"/>
+                        </div>
+                    </div>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">                
+                            <img src="./images/play_beingAnAdult.png" className="column-img"/> 
+                        </div>
+                        <div className="tile">
+                            <img src="./images/play_dearMoon.png" className="column-img"/>
+                        </div>
+                    </div>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">
+                            <img src="./images/play_food.png" className="column-img"/>
+                        </div>
+                        <div className="tile">
+                            {/* <img src="./images/play_weatherCat6.png" className="column-img"/> */}
+                        </div>
+                    </div>
+                </div>
 
-
+                <div className="spacer"></div>
+                <div className="">
+                    <h5>POTTERY</h5>
+                    <p>purely for fun, playing around on Figma</p>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">
+                            <img src="./images/play_cat.png" className="column-img"/>
+                        </div>
+                        <div className="tile">       
+                            <img src="./images/play_family.png" className="column-img"/>
+                        </div>
+                        <div className="tile">       
+                            <img src="./images/play_family.png" className="column-img"/>
+                        </div>
+                    </div>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">                
+                            <img src="./images/play_beingAnAdult.png" className="column-img"/> 
+                        </div>
+                        <div className="tile">
+                            <img src="./images/play_dearMoon.png" className="column-img"/>
+                        </div>
+                    </div>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">
+                            <img src="./images/play_food.png" className="column-img"/>
+                        </div>
+                        <div className="tile">
+                            {/* <img src="./images/play_weatherCat6.png" className="column-img"/> */}
+                        </div>
+                    </div>
+                </div>
 
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
