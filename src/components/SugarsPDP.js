@@ -4,7 +4,7 @@ const SugarsPDP = () => {
     return(
         <div>
             <main id="sugars-pdp">
-                <h1>How do we digest sugar?</h1>
+                <h1>How do our bodies digest sugar?</h1>
                 <p>A data visualization project that makes learning about 
                     sugar digestion more interactive, accessible, and fun.
                 </p>
@@ -64,9 +64,9 @@ const SugarsPDP = () => {
                         What kind of projects, research, and products already existed in this realm 
                         and what whitespaces existed that we could contribute to? 
                         <p>We found 3 main types of works:</p>
-                        <img src="./images/sugars_BodyVis.png" className="list-img drop-shadow"/>
-                        <img src="./images/sugars_VisibleBody.png" className="list-img drop-shadow"/>
-                        <img src="./images/sugars_Diagrams.png" className="list-img drop-shadow"/>
+                        <img src="./images/Sugars_BodyVis.png" className="list-img drop-shadow"/>
+                        <img src="./images/Sugars_VisibleBody.png" className="list-img drop-shadow"/>
+                        <img src="./images/Sugars_Diagrams.png" className="list-img drop-shadow"/>
                     </div>
                 </div>
                 <h3>Ideating & Conceptualization</h3>
