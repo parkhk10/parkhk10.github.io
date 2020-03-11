@@ -14,26 +14,21 @@ const AirbnbPDP = () => {
                 </p>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-left">
-                        Timeline: <br />
-                        Part 1: 10 weeks <br />
-                        Part 2: 10 weeks
                         <br />
+                        <p className="serif-font summary-label">TIMELINE:</p>
+                        8 weeks
                         <br />
-                        Team:<br />
+                        <p className="serif-font summary-label">TEAM:</p>
                         Grace Learn<br />
-                        Michael del Rosario<br />
-                        Maria Arias (Part 2)
+                        Michael del Rosario
                         <br />
-                        <br />
-                        Skills:<br />
+                        <p className="serif-font summary-label">SKILLS:</p>
                         Design Research
                         Service Blueprints
                         User Journey
-                        Personas
-                        <p>Outcome:</p>
-                        <a href="http://annadeng.com/396-assignment4/" target="_blank">Part 1 Design Brief</a>
                         <br />
-                        <a href="http://annadeng.com/396-assignment4/" target="_blank">Part 2 Design Brief</a>
+                        <p className="serif-font summary-label">OUTCOME:</p>
+                        Proposal to Airbnb
                     </div>
                     <div className="pdp-child-right">
                         <img src="./images/airbnb.png" className="section-img"/>
@@ -54,7 +49,7 @@ const AirbnbPDP = () => {
                 <h3>Part 1: Designing the Airbnb Paid Membership - a Portfolio of Benefits</h3>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Problem & Overview
+                        <div className="serif-font">PROBLEM & OVERVIEW</div>
                     </div>
                     <div className="pdp-child-content-right">
                         We were facing a 2-fold problem, one with the business and one with the customers (guests):
@@ -71,7 +66,7 @@ const AirbnbPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        My Role
+                        <div className="serif-font">MY ROLE</div>
                     </div>
                     <div className="pdp-child-content-right">
                         Though we all worked heavily across multiple functions, my primary contributions include 
@@ -81,7 +76,7 @@ const AirbnbPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Research
+                        <div className="serif-font">RESEARCH</div>
                     </div>
                     <div className="pdp-child-content-right">
                         <h5>THEME 1: USER JOURNEY LACKS OFFLINE TOUCHPOINTS</h5>
@@ -101,7 +96,7 @@ const AirbnbPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Brainstorming
+                        <div className="serif-font">BRAINSTORMING</div>
                     </div>
                     <div className="pdp-child-content-right">
                         Using the two themes as opportunities to innovate, we brainstormed all kinds of ideas
@@ -119,7 +114,7 @@ const AirbnbPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        User Testing
+                        <div className="serif-font">USER TESTING</div>
                     </div>
                     <div className="pdp-child-content-right">
                     We conducted user interviews with card sorting with 8 users of the target population.
@@ -139,7 +134,7 @@ const AirbnbPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        The Final Concept
+                        <div className="serif-font">FINAL CONCEPT</div>
                     </div>
                     <div className="pdp-child-content-right">
                         <h5>PROPOSED PORTFOLIO OF MEMBERSHIP PACKET FEATURES</h5>
@@ -198,7 +193,7 @@ const AirbnbPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Reflections
+                        <div className="serif-font">REFLECTIONS</div>
                     </div>
                     <div className="pdp-child-content-right">
                     This project taught me to grapple with problems that are large and vague. 

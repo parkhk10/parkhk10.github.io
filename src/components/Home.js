@@ -14,7 +14,6 @@ const Home = () => {
                     <h1 id="name">Hello! I'm Keren.</h1>
                     <p>I’m a front-end developer and a UX designer.</p>
                     <p>Driven by curiosity & passion for holistically creating meaningful experiences.</p>
-                    <br />
                     <div id="intro-icons">
                         <a href="mailto:hakyungpark2020@u.northwestern.edu"><FontAwesomeIcon icon={faEnvelope} className="fa-lg" id="envelope-icon"/></a>
                         <a href="https://github.com/parkhk10" target="_blank"><FontAwesomeIcon icon={faGithub} className="fa-lg"id="github-icon"/></a>

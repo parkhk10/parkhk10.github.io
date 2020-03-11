@@ -7,13 +7,13 @@ const NavBar = () => {
         <nav className="nav-bar">
             <a href="/"><Logo /></a>
             <div className="">
-                <a href="/about">
+                <a className="nav-bar-item" href="/about">
                     <Link to="/about">about</Link>
                 </a> 
-                <a href="/">
+                <a className="nav-bar-item" href="/">
                     <Link to="/">work</Link>
                 </a> 
-                <a href="/play">
+                <a className="nav-bar-item" href="/play">
                     <Link to="/play">play</Link>
                 </a> 
             </div>

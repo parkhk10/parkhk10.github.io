@@ -15,22 +15,19 @@ const SugarsPDP = () => {
                 <div className="pdp-wrapper">
                     <div className="pdp-child-left">
                         <br />
-                    Timeline: <br />
-                        1 week
+                        <p className="serif-font summary-label">TIMELINE:</p>
+                        2 weeks
                         <br />
-                        <br />
-                        Partner:<br />
+                        <p className="serif-font summary-label">TEAM:</p>
                         Anna Deng<br />
                         Meera Ramakrishnan
                         <br />
-                        <br />
-                        Tools:<br />
-                        D3
+                        <p className="serif-font summary-label">TOOLS:</p>
+                        React<br />
+                        CSS Animations<br />
                         JavaScript
-                        HTML/CSS
                         <br />
-                        <br />
-                        Outcome: <br />
+                        <p className="serif-font summary-label">OUTCOME:</p>
                         <a href="http://annadeng.com/396-assignment4/" target="_blank">Sugars Explorable Explanation</a>
                     </div>
                     <div className="pdp-child-right">
@@ -51,8 +48,8 @@ const SugarsPDP = () => {
                 <br />
                 <h3>Understanding Sugar Digestion</h3>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Motivation
+                    <div className="pdp-child-content-left serif-font">
+                        MOTIVATION
                     </div>
                     <div className="pdp-child-content-right">
                         We wanted to use our explorable explanation as an opportunity to explain 
@@ -64,8 +61,8 @@ const SugarsPDP = () => {
                     </div>
                 </div>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Whitespace Research
+                    <div className="pdp-child-content-left serif-font">
+                        WHITESPACE RESEARCH
                     </div>
                     <div className="pdp-child-content-right">
                         What kind of projects, research, and products already existed in this realm 
@@ -78,14 +75,14 @@ const SugarsPDP = () => {
                 </div>
                 <h3>Ideating & Conceptualization</h3>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Brainstorming
+                    <div className="pdp-child-content-left serif-font">
+                        BRAINSTORMING
                     </div>
                     <div className="pdp-child-content-right">
                     Online information about the digestive system is riddled with medical jargons, 
                     making it hard for those without medical knowledge to understand. To combat this, 
                     we brainstormed ways we can present information by leveraging Gestalt principles and 
-                    ___ principles to minimize cognitive load. 
+                    perception principles to minimize cognitive load. 
                     <p>Taking our ideas to paper + pencil, we landed on creating three defined sections: </p>
                     <ol>
                         <li>Important body organs in sugar digestion</li>
@@ -96,8 +93,8 @@ const SugarsPDP = () => {
                     </div>
                 </div>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Prototyping
+                    <div className="pdp-child-content-left serif-font">
+                        PROTOTYPING
                     </div>
                     <div className="pdp-child-content-right">
                     In order to prototype our idea, we first drew out a simple storyboard. Once we had our 
@@ -106,8 +103,8 @@ const SugarsPDP = () => {
                     </div>
                 </div>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        User Testing
+                    <div className="pdp-child-content-left serif-font">
+                        USER TESTING
                     </div>
                     <div className="pdp-child-content-right">
                     Although our prototype was still a ways off from the final product, we conducted testing with
@@ -125,10 +122,10 @@ const SugarsPDP = () => {
                     </ol>
                     </div>
                 </div>
-                <h3>Solution & Final Design</h3>
+                <h3>Solution & Final Implementation - an Explorable Explanation</h3>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Creating Diagrams that Make Sense
+                    <div className="pdp-child-content-left serif-font">
+                        CREATING DIAGRAMS THAT MAKE SENSE
                     </div>
                     <div className="pdp-child-content-right">
                     To convey the medical information in a way that is easily understandable, we needed to create 
@@ -142,8 +139,8 @@ const SugarsPDP = () => {
                     </div>
                 </div>
                 <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Bringing Ideas to Life
+                    <div className="pdp-child-content-left serif-font">
+                        BRINGING IDEAS TO LIFE
                     </div>
                     <div className="pdp-child-content-right">
                     In order to bring all of our designs into reality, we created a React App. Using SVGs and paths, we created CSS animations that responded to 

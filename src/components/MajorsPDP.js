@@ -14,21 +14,19 @@ const MajorsPDP = () => {
                 </p>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-left">
-                    Timeline: <br />
+                        <br/>
+                        <p className="serif-font summary-label">TIMELINE:</p>
                         1 week
                         <br />
-                        <br />
-                        Partner:<br />
+                        <p className="serif-font summary-label">PARTNER:</p>
                         Anna Deng
                         <br />
-                        <br />
-                        Tools:<br />
-                        D3
-                        JavaScript
+                        <p className="serif-font summary-label">TOOLS:</p>
+                        D3<br />
+                        JavaScript<br />
                         HTML/CSS
                         <br />
-                        <br />
-                        Outcome: <br />
+                        <p className="serif-font summary-label">OUTCOME:</p>
                         <a href="https://parkhk10.github.io/interactive-viz/" target="_blank">College Major Explorer</a>
                     </div>
                     <div className="pdp-child-right">
@@ -48,7 +46,7 @@ const MajorsPDP = () => {
                 <h3>Conceptualizing an Interactive Visualization</h3>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Storyboard 1: One-on-One Comparison of Two Majors
+                        <div className="serif-font">STORYBOARD 1: ONE-ON-ONE COMPARISON OF TWO MAJORS</div>
                     </div>
                     <div className="pdp-child-content-right">
                         After brainstorming which attributes we should deem most important, we decided to plot the 
@@ -62,7 +60,7 @@ const MajorsPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Storyboard 2: Context-Based Scatterplot
+                        <div className="serif-font">STORYBOARD 2: CONTEXT-BASED SCATTERPLOT</div>
                     </div>
                     <div className="pdp-child-content-right">
                         After our first draft, we realized that students needed more context for each of the majors they were 
@@ -77,7 +75,7 @@ const MajorsPDP = () => {
                 <h3>Implementing the Final Design</h3>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Hover Tooltip
+                        <div className="serif-font">HOVER TOOLTIP</div>
                     </div>
                     <div className="pdp-child-content-right">
                         When the user hovers on each circle on the scatterplot, a tooltip appears, which contains the most 
@@ -87,7 +85,7 @@ const MajorsPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Filtering by Parameters
+                        <div className="serif-font">FILTERING BY PARAMETERS</div>
                     </div>
                     <div className="pdp-child-content-right">
                         In order to make filtering easy and intuitive, we created inputs for each of the four attributes 
@@ -101,7 +99,7 @@ const MajorsPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Linked supplementary bar graphs
+                        <div className="serif-font">LINKED SUPPLEMENTARY BAR GRAPHS</div>
                     </div>
                     <div className="pdp-child-content-right">
                         When the user changes any of the filters, three bar graphs of the selected points are generated. 
@@ -115,7 +113,7 @@ const MajorsPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Using Principles to Guide Design
+                        <div className="serif-font">USING PRINCIPLES TO GUIDE DESIGN</div>
                     </div>
                     <div className="pdp-child-content-right">
                         Since we wanted to focus on facilitating comparison of various quantitative attributes across 
@@ -127,7 +125,7 @@ const MajorsPDP = () => {
                 </div>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-content-left">
-                        Final Implementation
+                        <div className="serif-font">FINAL IMPLEMENTATION</div>
                     </div>
                     <div className="pdp-child-content-right">
                         We created a website containing our interactive visualization using D3, JavaScript, and HTML/CSS. 
@@ -142,7 +140,7 @@ const MajorsPDP = () => {
                                 <source src="./images/majors_demo.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
-                            <a className="button glow-button sugars-btn-size" href="https://parkhk10.github.io/interactive-viz/" target="_blank">
+                            <a className="button glow-button sugars-btn-size majors-demo-btn" href="https://parkhk10.github.io/interactive-viz/" target="_blank">
                                 demo
                             </a>
                         </div>
