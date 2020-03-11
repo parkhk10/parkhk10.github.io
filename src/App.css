@@ -50,6 +50,17 @@ main {
 }
 end of default CSS */
 
+/* Basics */
+.pdp {
+  text-align: left;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.flex-only {
+  display: flex;
+}
+
 /* NavBar */
 .nav-bar {
   overflow: hidden;
@@ -163,15 +174,9 @@ end of default CSS */
   box-shadow: 4px 4px 15px rgba(0, 0, 0, .15);
 }
 
-#sugars-pdp {
-  text-align: left;
-  margin-left: 22%;
-  margin-right: 22%;
-}
-
 .pdp-wrapper {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .pdp-child-left {
@@ -191,6 +196,7 @@ end of default CSS */
 .pdp-child-right img {
   width: 600px;
   float: right;
+  border-radius: 10px;
 }
 
 .pdp-child-content-left {
@@ -211,7 +217,7 @@ end of default CSS */
 }
 
 .section-img {
-  margin-top: 45px;
+  margin-top: 20px;
   margin-bottom: 45px;
 }
 
@@ -242,4 +248,15 @@ end of default CSS */
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
+}
+
+/* AirbnbPDP */
+#airbnb-pdp h5 {
+  margin-top: 0px;
+}
+
+.column-img {
+  /* allows for columnation by setting width < 100% */ 
+  width: 80%!important;
+  margin-top: 20px;
 }

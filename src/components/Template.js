@@ -1,33 +1,38 @@
 import React from 'react';
 
-const SugarsPDP = () => {
+const AirbnbPDP = () => {
     return(
         <div>
-            <main className="pdp">
-                <h1>How do our bodies digest sugar?</h1>
-                <p>A data visualization project that makes learning about 
-                    sugar digestion more interactive, accessible, and fun.
+            <main id="sugars-pdp">
+                <h1>How can Airbnb increase customer loyalty?</h1>
+                <p>A service design project to create a paid membership service for Airbnb to boost 
+                    customer loyalty for high-end travelers.
                 </p>
                 <div className="pdp-wrapper">
                     <div className="pdp-child-left">
-                        <p>Timeline:</p>
-                        2 weeks
-                        <p>Team:</p>
-                        <ul>
-                            <li>Anna Deng</li>
-                            <li>Meera Ramakrishnan</li>
-                        </ul>
-                        <p>Tools:</p>
-                        <ul>
-                            <li>Figma</li>
-                            <li>CSS Animations</li>
-                            <li>React</li>
-                        </ul>
+                        Timeline: <br />
+                        Part 1: 10 weeks <br />
+                        Part 2: 10 weeks
+                        <br />
+                        <br />
+                        Team:<br />
+                        Grace Learn<br />
+                        Michael del Rosario<br />
+                        Maria Arias (Part 2)
+                        <br />
+                        <br />
+                        Skills:<br />
+                        Design Research
+                        Service Blueprints
+                        User Journey
+                        Personas
                         <p>Outcome:</p>
-                        <a href="http://annadeng.com/396-assignment4/" target="_blank">this website</a>
+                        <a href="http://annadeng.com/396-assignment4/" target="_blank">Part 1 Design Brief</a>
+                        <br />
+                        <a href="http://annadeng.com/396-assignment4/" target="_blank">Part 2 Design Brief</a>
                     </div>
                     <div className="pdp-child-right">
-                        <img src="./images/sugars.png" className="section-img"/>
+                        <img src="./images/airbnb.png" className="section-img"/>
                     </div>
                 </div>
                 <br />
@@ -155,4 +160,4 @@ const SugarsPDP = () => {
     )
 }
 
-export default SugarsPDP;
+export default AirbnbPDP;

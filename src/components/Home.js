@@ -28,7 +28,9 @@ const Home = () => {
                         <SugarsThumb />
                         <div className="project-display-caption">
                             <div>
-                                <h4 className="project-title"><a href="/sugars"><Link to="/sugars">How do we digest sugars?</Link></a></h4>
+                                <h4 className="project-title">
+                                    <a href="/sugars"><Link to="/sugars">How do we digest sugars?</Link></a>
+                                </h4>
                                 <span>information visualization</span>
                             </div>
                         </div>
@@ -37,7 +39,9 @@ const Home = () => {
                         <img src="./images/airbnb.png"/>
                             <div className="project-display-caption">
                                 <div>
-                                    <h4 className="project-title">How can Airbnb increase customer loyalty?</h4>
+                                    <h4 className="project-title">
+                                        <a href="/airbnb"><Link to="/airbnb">How can Airbnb increase customer loyalty?</Link></a>
+                                    </h4>
                                     <span>service design</span>
                                 </div>
                             </div>
