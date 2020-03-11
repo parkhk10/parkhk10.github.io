@@ -138,7 +138,7 @@ const MajorsPDP = () => {
                         brushing to zoom into certain areas on the scatterplot.
                         <br />
                         <div className="pdp-wrapper">
-                            <video controls autoPlay>
+                            <video controls autoPlay loop>
                                 <source src="./images/majors_demo.mp4" type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>

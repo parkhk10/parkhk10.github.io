@@ -156,8 +156,39 @@ const AirbnbPDP = () => {
                         <br />
                         <br />
                         <br />
-                        <h5>SUPPORTING INTERFACES</h5>
+                        <h5>MOCK-UPS OF SUPPORTING INTERFACES</h5>
                             As Airbnb is a web platform, changes to the service means changes to the app. 
+                            As such, we mocked up what changes to the app might look like to support the membership service.
+                        <p>Profile Change:</p>
+                        <div className="pdp-wrapper">
+                            <div className="pdp-child-content-right">
+                                <video controls autoPlay loop>
+                                    <source src="./images/airbnb_profilePrototype.mp4" type="video/mp4"/>
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div className="pdp-child-content-left">
+                                <br />
+                                <br />
+                                <br />
+                                <p>Users can into the profile to see what their rewards are.</p>
+                            </div>
+                        </div>
+                        <p>Personal Rideshare Promo Code:</p>
+                        <div className="pdp-wrapper">
+                            <div className="pdp-child-content-right">
+                                <video controls autoPlay loop>
+                                    <source src="./images/airbnb_lyftPrototype.mp4" type="video/mp4"/>
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div className="pdp-child-content-left">
+                                <br />
+                                <br />
+                                <br />
+                                <p>Upon booking, users will receive a personal rideshare promo code in their inbox for their trip.</p>
+                            </div>
+                        </div>   
                         <br />
                         <br />
                         <br />
@@ -170,14 +201,12 @@ const AirbnbPDP = () => {
                         Reflections
                     </div>
                     <div className="pdp-child-content-right">
-                    In order to bring all of our designs into reality, we created a React App. Using SVGs and paths, we created CSS animations that responded to 
-                    users’ interactions such as scroll, click, and hover. 
+                    This project taught me to grapple with problems that are large and vague. 
+                    As someone who champions clarity and concreteness, the beginning of the project
+                    was especially a challenge for me. I learned to combat the ambiguous nature of the 
+                    project is something by conducting more research and getting into the user's 
+                    mindset.
                     <br />
-                    <div className="pdp-wrapper">
-                        <a className="button glow-button sugars-btn-size" href="http://annadeng.com/396-assignment4/" target="_blank">
-                            full demo
-                        </a>
-                    </div>
                     </div>
                 </div>
             </main>

@@ -15,7 +15,7 @@ const Play = () => {
                 <br />
                 <div className="">
                     <h5>WEATHER CAT</h5>
-                    <p>playing around on Illustrator</p>
+                    <p>envisioning a cat-themed weather app, made on Illustrator</p>
                     <div className="flex-only grid-vertical-spacing-bar">
                         <div>
                             <img src="./images/play_weatherCat1.png" className="column-img"/>
@@ -85,50 +85,22 @@ const Play = () => {
                 <div className="spacer"></div>
                 <div className="">
                     <h5>POTTERY</h5>
-                    <p>purely for fun, playing around on Figma</p>
+                    <p>lumps of clay thrown on the wheel</p>
                     <div className="flex-only grid-vertical-spacing-bar">
                         <div className="tile">
-                            <img src="./images/play_cat.png" className="column-img"/>
+                            <img src="./images/play_pottery1.JPG" className="column-img"/>
                         </div>
                         <div className="tile">       
-                            <img src="./images/play_family.png" className="column-img"/>
+                            <img src="./images/play_pottery2.JPG" className="column-img"/>
                         </div>
+                    </div>
+                    <div className="flex-only grid-vertical-spacing-bar">
                         <div className="tile">       
-                            <img src="./images/play_family.png" className="column-img"/>
-                        </div>
-                    </div>
-                    <div className="flex-only grid-vertical-spacing-bar">
-                        <div className="tile">                
-                            <img src="./images/play_beingAnAdult.png" className="column-img"/> 
+                            <img src="./images/play_pottery3.JPG" className="column-img"/>
                         </div>
                         <div className="tile">
-                            <img src="./images/play_dearMoon.png" className="column-img"/>
+                            <img src="./images/play_pottery4.JPG" className="column-img"/>
                         </div>
-                    </div>
-                    <div className="flex-only grid-vertical-spacing-bar">
-                        <div className="tile">
-                            <img src="./images/play_food.png" className="column-img"/>
-                        </div>
-                        <div className="tile">
-                            {/* <img src="./images/play_weatherCat6.png" className="column-img"/> */}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="pdp-wrapper">
-                    <div className="pdp-child-content-left">
-                        Bringing Ideas to Life
-                    </div>
-                    <div className="pdp-child-content-right">
-                    In order to bring all of our designs into reality, we created a React App. Using SVGs and paths, we created CSS animations that responded to 
-                    users’ interactions such as scroll, click, and hover. 
-                    <br />
-                    <div className="pdp-wrapper">
-                        <img src="./images/Sugars_Demo.gif" className="gif section-img"/>
-                        <a className="button glow-button sugars-btn-size" href="http://annadeng.com/396-assignment4/" target="_blank">
-                            full demo
-                        </a>
-                    </div>
                     </div>
                 </div>
             </main>

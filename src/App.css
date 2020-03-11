@@ -102,6 +102,10 @@ end of default CSS */
   text-align: left;
 }
 
+.home-thumbnails {
+  border-radius: 8px;
+}
+
 #intro-icons {
   float: left;
   width: 10%;

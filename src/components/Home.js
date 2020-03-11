@@ -23,39 +23,31 @@ const Home = () => {
                 </section> 
                 <br />
                 <br />
+                <br />
+                <br />
                 <div id="home-projects">
-                    <div className="project-display-row">
-                        <SugarsThumb />
-                        <div className="project-display-caption">
-                            <div>
-                                <h4 className="project-title">
-                                    <a href="/sugars"><Link to="/sugars">How do we digest sugars?</Link></a>
-                                </h4>
-                                <span>information visualization</span>
-                            </div>
+                    <div className="flex-only grid-vertical-spacing-bar">
+                        <div className="tile">
+                            <img src="./images/sugars_thumbnail.png" className="column-img home-thumbnails"/>
+                            <h5 className="project-title">
+                                <a href="/sugars"><Link to="/sugars">How our bodies digest sugar?</Link></a>
+                            </h5>
+                            <span>information visualization</span>
                         </div>
-                    </div>
-                    <div className="project-display-row">
-                        <img src="./images/airbnb.png"/>
-                            <div className="project-display-caption">
-                                <div>
-                                    <h4 className="project-title">
-                                        <a href="/airbnb"><Link to="/airbnb">How can Airbnb increase customer loyalty?</Link></a>
-                                    </h4>
-                                    <span>service design</span>
-                                </div>
-                            </div>
-                    </div>
-                    <div className="project-display-row">
-                        <img src="./images/majors.png"/>
-                            <div className="project-display-caption">
-                                <div>
-                                    <h4 className="project-title">
-                                        <a href="/majors"><Link to="/majors">How should I select my college major?</Link></a>
-                                    </h4>
-                                    <span>information visualization</span>
-                                </div>
-                            </div>
+                        <div className="tile">       
+                            <img src="./images/airbnb_thumbnail.png" className="column-img home-thumbnails"/>
+                            <h5 className="project-title">
+                                <a href="/airbnb"><Link to="/airbnb">How can Airbnb increase customer loyalty?</Link></a>
+                            </h5>
+                            <span>service design</span>
+                        </div>
+                        <div className="tile">       
+                            <img src="./images/majors_thumbnail.png" className="column-img home-thumbnails"/>
+                            <h5 className="project-title">
+                                <a href="/majors"><Link to="/majors">How should I select my college major?</Link></a>
+                            </h5>
+                            <span>information visualization</span>
+                        </div>
                     </div>
                 </div>
             </main>
