@@ -11,7 +11,9 @@ const Home = () => {
         <div className="">
             <main class="home-main">
                 <section id="intro-blurb">
-                    <h1 id="name">Hello! I'm Keren. Junwon's making me do this.</h1>
+                    <h1 id="welcome-message">🚧 Website Under Construction 🚧</h1>
+                    <p id="welcome-message">Thank you for your patience :)</p>
+                    <h1 id="name">Hello! I'm Keren.</h1>
                     <p>I’m a front-end developer and a UX designer.</p>
                     <p>Driven by curiosity & passion for holistically creating meaningful experiences.</p>
                     <div id="intro-icons">

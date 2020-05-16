@@ -327,3 +327,9 @@ video {
   margin-top: 150px!important;
   margin-bottom: 150px!important;
 }
+
+#welcome-message {
+  margin-top:0px;
+  margin-bottom:0px;
+  color: #5B6CAB;
+}
