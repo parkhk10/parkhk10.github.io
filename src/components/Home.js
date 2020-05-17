@@ -15,7 +15,7 @@ const Home = () => {
                     <p id="welcome-message">Thank you for your patience :)</p>
                     <h1 id="name">Hello! I'm Keren.</h1>
                     <p>I’m a front-end developer and a UX designer, driven by curiosity & passion for holistically creating meaningful experiences.</p>
-                    <p>Currently TA-ing <a href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/150.html" target="_blank">CS 150</a> @ Northwestern University.</p>
+                    <p>Currently a TA for <a href="https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/150.html" target="_blank">CS 150</a> @ Northwestern University.</p>
                     <div id="intro-icons">
                         <a href="mailto:hakyungpark2020@u.northwestern.edu"><FontAwesomeIcon icon={faEnvelope} className="fa-lg" id="envelope-icon"/></a>
                         <a href="https://github.com/parkhk10" target="_blank"><FontAwesomeIcon icon={faGithub} className="fa-lg"id="github-icon"/></a>
